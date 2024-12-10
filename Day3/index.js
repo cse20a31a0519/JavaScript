@@ -82,6 +82,6 @@ console.log(combinedNames);
 
 var cart1 = ["Milk", "Bread", "Eggs", "Butter"];
 var eggsIndex = cart.indexOf("Eggs");
-cart.splice(eggsIndex, 1, "Cheese");
-cart.unshift("Juice");
+cart1.splice(eggsIndex, 1, "Cheese");
+cart1.unshift("Juice");
 console.log(cart); 
